@@ -107,7 +107,7 @@ nav {
 .banner{
   position: relative;
   display: inline-block;
-  background-image: url(/img/imagen7.jpg);
+  background-image: url(img/imagen7.jpg);
   height: 600px;
   background-size: cover;
   background-position: center;
