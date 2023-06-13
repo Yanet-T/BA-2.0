@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style_sabores.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="header">
+
+        <nav>
+          <div class="container">
+              <div class="container-logo">
+                  <img src="/img/helado4.png">
+              </div>
+  
+              <ul class="direcciones">
+                  <li class="dire"><a href="/index.html">Inicio</a></li>
+                  <li class="dire"><a href="/pages/sabores.html">Sabores</a></li>
+                  <li class="dire"><a href="/pages/contacto1.html">Contactos</a></li>
+              </ul>
+  
+  
+              <div class="toggle">
+                  |||
+              </div>
+  
+          </div>
+  
+  
+        </nav>
+  
+  
+  
+        <div class="baner">
+          <div class="text-overlay">
+            <h1>HELA_2</h1>
+            <p>Tenemos una gran variedad de helados, perfectos para cada momento de tu vida y para compartir con las personas que más quieres. Aquí tienes una selección de sabores que te encantará:</p>
+          </div>
+        </div>
+        
+        <section >
+            <div CLASS="baner">
+    
+            </div>
+          </section>
+    
+       
+  
+      </header>
+
+
+
+   
+   
+
+
+<section class="todos_sabor">
+    <div class="titulo_sabor">    
+        <h1>¿Cual es tu favorito?
+
+        </h1>
+    </div>
+
+    <div class="row listas">
+        <div class="col-md-6">
+            <h3>Chocolate</h3>
+        </div>
+        <div class="col-md-6">
+            <ul>
+                <li>Chocolate</li>
+                <li>Chocolate Amargo</li>
+                <li>Chocotorta</li>
+                <li>Chocolate Turco </li>
+                <li>Chocolate con Almendras</li>
+                <li>Chocolate Marroc </li>
+
+            </ul>
+        </div>
+      
+</div>
+
+<div class="row listas">
+    <div class="col-md-6">
+        <h3>Crema</h3>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Tiramisu</li>
+            <li>Vainilla</li>
+            <li>Granizado</li>
+            <li>Crema cookies
+            </li>
+            <li>Tiramisu</li>
+            <li>Crema del cielo
+            </li>
+
+        </ul>
+    </div>
+  
+</div>
+
+
+<div class="row listas">
+    <div class="col-md-6">
+        <h3>Dulce de leche        </h3>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Dulce de Leche Bombón
+            </li>
+            <li>Dulce de Leche
+            </li>
+            <li>Dulce de Leche Granizado
+            </li>
+            <li>Dulce de Leche con Nuez
+            </li>
+        </ul>
+    </div>
+  
+</div>
+
+<div class="row listas">
+    <div class="col-md-6">
+        <h3>Frutal Natural
+
+        </h3>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Anana</li>
+            <li>Frutilla al Agua
+            </li>
+            <li>Maracuya</li>
+            <li>Limon</li>
+            <li>Maracuya al Agua
+            </li>
+            <li>Frambuesa</li>
+
+        </ul>
+    </div>
+  
+</div>
+
+
+<div class="row listas">
+    <div class="col-md-6">
+        <h3>Sambayón</h3>
+    </div>
+    <div class="col-md-6">
+        <ul>
+            <li>Súper Sambayón
+
+            </li>
+            <li>Sambayón con almendras y frutillas
+
+            </li>
+            <li>Sambayón con almendras
+
+            </li>
+
+
+        </ul>
+    </div>
+  
+</div>
+</section>
+
+
+<section class="juego">
+    <div class="cone-text">Tus Sabores Favoritos,<br> Tu combinacion Favorita</div>
+
+<div class="row"> 
+    <div class="col-md-12">
+    <div class="cone">
+        <div class="level">
+            <div class="ball" id="ball1"></div>
+        </div>
+        <div class="level">
+            <div class="ball" id="ball2"></div>
+            <div class="ball" id="ball3"></div>
+        </div>
+        <div class="level">
+            <div class="ball" id="ball4"></div>
+            <div class="ball" id="ball5"></div>
+            <div class="ball" id="ball6"></div>
+        </div>
+        <div class="level">
+            <div class="ball" id="ball7"></div>
+            <div class="ball" id="ball8"></div>
+            <div class="ball" id="ball9"></div>
+            <div class="ball" id="ball10"></div>
+        </div>
+    </div>
+</div>
+
+<div class="todo_j">
+    
+    <div class="buttons">
+        <button onclick="selectSabor(1)">Primer Sabor</button>
+        <button onclick="selectSabor(2)">Segundo Sabor</button>
+        <button onclick="selectSabor(3)">Tercer Sabor</button>
+    
+    </div>
+    
+    <div class="buttons">
+        <button onclick="placeEmogi('🍓')">Fresa</button>
+        <button onclick="placeEmogi('🍌')">Plátano</button>
+        <button onclick="placeEmogi('🍫')">Chocolate</button>
+        <button onclick="placeEmogi('p')">Piña</button>
+        <button onclick="placeEmogi('C')">Coco</button>
+        <button onclick="placeEmogi('G')">Granizado</button>
+    
+    </div>
+</div>
+
+    <button class="boron" onclick="showAlert()">Como Usar</button>
+    
+</section>
+
+
+      <script src="/scripts/script_sabores.js"></script>
+      <script src="/scripts/script.js"></script>
+
+
+      <div id="footer-container"></div>
+
+      <script>
+        createFooter();
+      </script>
+    
+</body>
+</html>
+

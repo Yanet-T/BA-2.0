@@ -1,0 +1,81 @@
+
+
+
+form {
+background-color: rgb(245, 244, 246);
+max-width: 480px;
+margin: auto;
+min-width: 330px;
+height: 500px;
+border-radius: 30px;
+}
+
+.login{
+    padding: 35px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(190, 155, 223);
+    border-radius: 30px 30px 0px 0px;
+    color:aliceblue;
+}
+
+.formilario{
+    padding: 40px 80px 0px 80px;
+}
+
+.envio{
+margin: 40px;
+}
+.centrar{
+    text-align: center;
+}
+.todo{
+    padding: 80px;
+}
+.el_salir{
+    margin-left: 90%;
+    background-color: #c69cd6;
+    padding: 20px 0px;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+}
+
+.myButton {
+    margin-top: 35px;
+	background-color:#c69cd6;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:16px;
+	padding:15px 34px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#bc82b7;
+    color: #ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.formulario{
+    padding: 5% 20%;
+}
+
+label {
+    font-size: 25px;
+}
+
+
+.boton_saludo{
+    margin: 3%;
+    font-size: 10px;
+
+}
