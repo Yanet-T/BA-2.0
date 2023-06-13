@@ -19,7 +19,7 @@
 
 .baner{
     background-color: rgba(255, 25, 255, 0);
-    background-image: url("img/imagen6.jpg");
+    background-image: url("/img/imagen6.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     border-width: 0px;
